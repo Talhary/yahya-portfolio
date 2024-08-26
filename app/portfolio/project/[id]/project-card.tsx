@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion"; // For animations
 import Image from "next/image"; // Assuming you're using Next.js
 
-export const ProjectCard = ({ data }) => {
+export const ProjectCard = ({ data }:{data:any}) => {
     return (
         <motion.div
             className="w-[80%] max-md:w-full my-10 max-md:my-10 text-black dark:text-white   mx-auto  shadow-lg rounded-lg overflow-hidden"

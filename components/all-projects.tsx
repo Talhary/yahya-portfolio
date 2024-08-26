@@ -12,7 +12,6 @@ export const AllProjects = ({projects}:{projects:z.infer<typeof formSchema>[]})=
            <ImageCarousel images={project.imageUrl}/>
          </div>
          <div className="p-4 max-md:p-3 max-sm:p-2 ">
-           <h2 className="text-xl font-semibold dark:text-white text-white">{project.title}</h2>
            <div className="mt-2 max-md:mt-1 w-full">
              
              <a
